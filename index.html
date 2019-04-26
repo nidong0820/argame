@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+        
+    </head>
+    <style>
+        @keyframes animateLarge {
+            0% {
+                transform: scale(1.0);
+                -webkit-transform: scale(1.0);
+            }
+            100% {
+                transform: scale(1.5);
+                -webkit-transform: scale(1.5);
+            }
+        }
+        .animateLarge {
+            animation: animateLarge 3s ease-in-out infinite alternate;
+            -webkit-animation: animateLarge 3s ease-in-out infinite alternate;
+        }
+    </style>
+<body>
+    
+    
+    
+    <div class="background">
+        
+
+        <p style="margin-top: -30px;" id="instruction">1Move around to find the shape.</p>
+        
+        <p id="instruction2">2Move around to find the shape.</p>
+        
+        <p style="margin-top: 30px" id="instruction3">3Move around to find the shape.</p>
+        
+        
+        
+
+        
+<!--
+        <div id="shape">
+            <img src="heart.gif" alt="heart" onclick="doAction()">
+        </div>
+-->
+        
+    <div id="shape" class="" style="display: none;position: absolute;height: 40vh;width: 100%;">
+    
+    <div style="margin-top: 39%;text-align: center;font-size: 84px;color: white;z-index: 9;position: absolute;width: 100%;" id="shape-text"><a>Tap to Start</a></div><div style="background: rgba(0,0,255,.5);height: 50%;width: 50%;border-radius: 100%;position: absolute;left: 150px;top: 150px;z-index: 0;"></div><div style="background: rgba(0,0,255,.5);height: 50%;width: 50%;border-radius: 100%;position: absolute;top: 150px;right: 150px;z-index: 0;"></div>
+    <div style="background: rgba(0,0,255,.5);height: 50%;width: 50%;border-radius: 100%;position: absolute;bottom: 150px;left: 150px;z-index: 0;"></div>
+    <div style="background: rgba(0,0,255,.5);height: 50%;width: 50%;border-radius: 100%;position: absolute;right: 150px;bottom: 150px;z-index: 0;"></div>
+    
+    </div>
+        
+        
+        
+        
+        
+    <div id="shape2" class="" style="display: none;position: absolute;height: 40vh;width: 100%;">
+    
+    <div style="margin-top: 39%;text-align: center;font-size: 84px;color: white;z-index: 9;position: absolute;width: 100%;" id="shape-text"><a>Tap to Start</a></div><div style="background: rgba(0,0,255,.5);height: 50%;width: 50%;border-radius: 100%;position: absolute;left: 150px;top: 150px;z-index: 0;"></div><div style="background: rgba(0,0,255,.5);height: 50%;width: 50%;border-radius: 100%;position: absolute;top: 150px;right: 150px;z-index: 0;"></div>
+    <div style="background: rgba(0,0,255,.5);height: 50%;width: 50%;border-radius: 100%;position: absolute;bottom: 150px;left: 150px;z-index: 0;"></div>
+    <div style="background: rgba(0,0,255,.5);height: 50%;width: 50%;border-radius: 100%;position: absolute;right: 150px;bottom: 150px;z-index: 0;"></div>
+    
+    </div>
+        
+        
+    <div id="shape3" class="" style="display: none;position: absolute;height: 40vh;width: 100%;">
+    
+    <div style="margin-top: 39%;text-align: center;font-size: 84px;color: white;z-index: 9;position: absolute;width: 100%;" id="shape-text"><a>Tap to Start</a></div><div style="background: rgba(0,0,255,.5);height: 50%;width: 50%;border-radius: 100%;position: absolute;left: 150px;top: 150px;z-index: 0;"></div><div style="background: rgba(0,0,255,.5);height: 50%;width: 50%;border-radius: 100%;position: absolute;top: 150px;right: 150px;z-index: 0;"></div>
+    <div style="background: rgba(0,0,255,.5);height: 50%;width: 50%;border-radius: 100%;position: absolute;bottom: 150px;left: 150px;z-index: 0;"></div>
+    <div style="background: rgba(0,0,255,.5);height: 50%;width: 50%;border-radius: 100%;position: absolute;right: 150px;bottom: 150px;z-index: 0;"></div>
+    
+    </div>
+        
+        <video id="video" autoplay playsinline>
+        </video>
+    
+    </div>
+    
+    
+    <script src="video.js"></script>
+    <script src="shape.js"></script>
+
+    
+
+</body>
+    </html>
